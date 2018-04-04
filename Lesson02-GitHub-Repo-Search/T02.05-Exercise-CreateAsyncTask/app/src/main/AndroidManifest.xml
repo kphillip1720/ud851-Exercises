@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.example.android.datafrominternet">
 
+    <!--Needed to avoid a security exception when using a background task-->
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
